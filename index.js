@@ -1,11 +1,8 @@
-const cowsay = require('./package.json./cowsay');
+const information = require('./information.js');
+var cowsay = require("cowsay");
 
-let name = "Mario";
-let campus = "Brussels";
-
-console.log(cowsay((name),(campus));
-
-
-//Teste Xavier
-
-//module.exports = informationgit
+console.log(cowsay.say({
+	text : information(),
+	e : "oO",
+	T : "U "
+}));    
